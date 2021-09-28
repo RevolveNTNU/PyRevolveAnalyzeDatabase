@@ -1,9 +1,9 @@
 from sqlalchemy import create_engine
 import pandas as pd
 
-from py_revolve_database.queries.queries import *
-from py_revolve_database.models.lap import Lap
-from py_revolve_database.errors.revolve_analyze_database_errors import *
+from revolve_analyze_database.queries.queries import *
+from revolve_analyze_database.models.lap import Lap
+from revolve_analyze_database.errors.revolve_analyze_database_errors import *
 
 class RevolveAnalyzeDatabase:
     """
